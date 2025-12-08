@@ -1,3 +1,5 @@
+# Research Findings
+
 Every deposit is sent to `0xFCc442275A2620E40F17598F9987F320fB57526e`. From there, the `loop()` function must be manually triggered by someone with the **OPERATOR_ROLE**. When triggered, the function increases liquidity for the configured `tokenId` on PancakeSwap.
 
 However, it currently appears that `loop()` is being triggered by a bot, because refreshing the website periodically shows the token balances changing.
