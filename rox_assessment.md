@@ -34,7 +34,7 @@ In practice, this means that anyone investing through this contract is indirectl
 
 Under normal circumstances, providing liquidity to a pool rewards the provider with **liquidity provider (LP) tokens**. These tokens can be sold at any time, and their value increases or decreases as the pool grows or shrinks.
 
-Here, although the contract adds liquidity to the `ROX/BIN` pool, it does not keep the LP tokens. Instead, they are sent to a “dead wallet,” effectively burning them. On its own, this is not necessarily a bad practice. The team controls the liquidity and may simply want the pool size to continuously increase. There is likely a reason behind this design.
+Here, although the contract adds liquidity to the `ROX/BIN` pool, it does not keep the LP tokens. Instead, they are sent to a “dead wallet,” effectively burning them. This raises concern, but the team controls the liquidity and may simply want the pool size to continuously increase. There is likely a reason behind this.
 
 ### **Withdrawal** 
 
