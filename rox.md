@@ -50,7 +50,7 @@ ROX is designed with a unique fee-on-transfer mechanism, giving it a much more c
 
   2. **LP Providers:** In order to participate in this you need to buy the liquidity pair on the decentralized exchange, **PancakeSwap**, which hosts the **ROX/BIN trading pool**. This means you must deposit an equal **value** of both your ROX tokens and BIN reward tokens into the pool. In exchange, you are given special **LP Tokens** (Liquidity Provider Tokens) which act as your receipt. These LP Tokens automatically register you with the smart contract, making you eligible to earn a portion of the **Standard Fee** collected from every single buy and sell transaction on the platform. This reward stream incentivizes users to provide the necessary assets to keep the ROX market stable and liquid.
 
-     ![sc9](/home/macdonald/Videos/BitnestResearchFindings/57526e_contract_docs/images/sc9.png)
+     ![sc9](images/sc9.png)
 
   3. **Nodes:** This is a separate centralized contract, where the admin is able to **selectively add or remove wallet addresses** to a whitelist that functions as the official list of Nodes. This is not a public reward stream; it is designed to reward dedicated partners, major ecosystem contributors, or core infrastructure providers who are essential to the project's long-term success. Nodes receive their own fixed share of the **Standard Fee** from all transactions, which is paid out in **BIN** like the other reward streams. Because the list is controlled by the project admin, it ensures that this particular reward pool only goes to the entities who are actively fulfilling the strategic needs of the project.
 
